@@ -1,0 +1,17 @@
+.homepage {
+    position: absolute;
+    top: 150px;
+}
+
+.food {
+    margin: 0px;
+}
+
+.contents {
+    height: 100%;
+    width: 100%;
+    color: yellow;
+    background-color: deepskyblue;
+    text-align: center;
+    padding: 25px;
+}

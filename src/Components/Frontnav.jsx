@@ -9,7 +9,7 @@ export default function Frontnav() {
             </div>
             <div class="b">
                 <nav class="lists">
-                    <img src="sk logo.png" className='rounded-circle' alt="no image" height={50} width={50} />
+                    <img src="sk logo.png" className='rounded-circle' alt="no image" height={70} width={80} />
                     <ul class="menu">
                         <li class="items"><a href="home">HOME</a></li>
                         <li class="items"><a href="profile">COMPANY PROFILE</a></li>
@@ -18,15 +18,8 @@ export default function Frontnav() {
                     </ul>
                     <button type="button" class="btn btn-primary">Order-Online</button>
                 </nav>
-                <div class="food position-relative top-0">
-                    <img src="restaurant.png " alt="no image" height={500} width={1700} />
-                </div>
-                <div class="contents">
-                    <h1 class="d">Welcome to SK Foods and Snacks: Feels the taste</h1>
-                    <p></p>
-                </div>
-            </div>
-
+                
+            </div>            
         </div>
     )
 }

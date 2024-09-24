@@ -1,12 +1,13 @@
 .main-nav {
   position: fixed;
-  height: 200px;
+  height: 150px;
   width: 100%;
+  z-index: 2;
 }
 
 .a {
   position: relative;
-  height: 25%;
+  height: 40%;
   width: 100%;
   color: black;
   background-color: rgb(230, 162, 36);
@@ -20,7 +21,7 @@
 
 .b {
   position: relative;
-  height: 75%;
+  height: 60%;
   width: 100%;
   background-color: bisque;
 }
@@ -52,22 +53,9 @@
 }
 
 .lists {
-  /* height:200px; */
+  height: 100%;
   width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
-}
-
-.food {
-  margin: 0px;
-}
-
-.contents {
-  height: 100%;
-  width: 100%;
-  color: yellow;
-  background-color: deepskyblue;
-  text-align: center;
-  padding: 25px;
 }
