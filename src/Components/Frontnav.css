@@ -1,58 +1,73 @@
-.a .welcome{
-    position: fixed;
-    height:60px;
-    width:100%;
-    color:black;
-    background-color: rgb(230, 162, 36);
-    margin:0px;
-    padding:10px;
-    font-size: 15px;
-    font-weight: bold;
-    font-family:Arial, Helvetica, sans-serif;
-    text-align: center;
+.main-nav {
+  position: fixed;
+  height: 200px;
+  width: 100%;
 }
-.b{
-    height:150px;
-    width:100%;
-    background-color: bisque;
+
+.a {
+  position: relative;
+  height: 25%;
+  width: 100%;
+  color: black;
+  background-color: rgb(230, 162, 36);
+  margin: 0px;
+  padding: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
 }
-.rounded-circle{
-    /* margin-top: 50px; */
-    margin-left: 80px;
+
+.b {
+  position: relative;
+  height: 75%;
+  width: 100%;
+  background-color: bisque;
 }
+
+.rounded-circle {
+  /* margin-top: 50px; */
+  margin-left: 80px;
+}
+
 .menu {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  } 
-.items{
-    color: black;
-    display: inline-block;
-    gap: 50px;
-    margin-left: 50px;
-    /* margin-top: 50px; */
-  }
-  .items a{
-    text-decoration: none;
-    color:rgb(73, 73, 224);
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-  }
-  .lists{
-    height:200px;
-    width:100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
-  .food{
-    margin: 0px;
-  }
-  .contents{
-    height:100%;
-    width:100%;
-    color:yellow;
-    background-color: deepskyblue;
-    text-align: center;
-    padding: 25px;
-  }
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.items {
+  color: black;
+  display: inline-block;
+  gap: 50px;
+  margin-left: 50px;
+  /* margin-top: 50px; */
+}
+
+.items a {
+  text-decoration: none;
+  color: rgb(73, 73, 224);
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+.lists {
+  /* height:200px; */
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.food {
+  margin: 0px;
+}
+
+.contents {
+  height: 100%;
+  width: 100%;
+  color: yellow;
+  background-color: deepskyblue;
+  text-align: center;
+  padding: 25px;
+}
