@@ -1,4 +1,5 @@
 import './App.css';
+import Experience from './Components/Experience/Experience';
 import Frontnav from './Components/Frontnav';
 import Home from './Components/Homepage/Home';
 
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
       < Frontnav />
       <Home />
+      <Experience />
     </div>
   );
 }

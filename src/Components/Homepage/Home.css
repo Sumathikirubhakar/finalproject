@@ -1,6 +1,8 @@
 .homepage {
-    position: absolute;
+    position: relative;
     top: 150px;
+    width: 100%;
+    min-height: 100%;
 }
 
 .food {
@@ -10,7 +12,9 @@
 .contents {
     height: 100%;
     width: 100%;
-    color: yellow;
+    color:rgb(221, 125, 125);
+    font-size: 25px;
+    font-weight: bold;
     background-color: deepskyblue;
     text-align: center;
     padding: 25px;
