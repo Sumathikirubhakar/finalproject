@@ -37,7 +37,7 @@ export default function Home() {
                 <Carousel.Item>
                     <img src="teateasnacks.png" alt="no image" height={600} width={1500} />
                     <Carousel.Caption>
-                        <h3>TANDOORI & DELIGHTS</h3>
+                        <h3>REFRESH AND CHATS</h3>
                         <p>The Tandoor is constructed, is an art and to perfect this art it takes years of experience. Tandoor can be used for homemade purposes while it could be used for commercials...!</p>
                     </Carousel.Caption>
                 </Carousel.Item>
