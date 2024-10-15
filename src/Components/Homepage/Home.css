@@ -12,10 +12,11 @@
 .contents {
     height: 100%;
     width: 100%;
-    color:rgb(221, 125, 125);
-    font-size: 25px;
+    color:rgb(228, 28, 28);
+    font-size: 20px;
     font-weight: bold;
-    background-color: deepskyblue;
+    font-style: italic;
+    background-color: rgb(178, 220, 235);
     text-align: center;
     padding: 25px;
 }

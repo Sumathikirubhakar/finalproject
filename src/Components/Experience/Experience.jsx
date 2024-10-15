@@ -6,7 +6,7 @@ export default function Experience() {
     <div>
       <div class="contents1">
         <h1>Feels The Taste.....!!!</h1>
-        <p class="theory">SK Foods and Snacks can tasting helps people understand the sensory qualities of food and beverages, which can help improve food quality and consumer satisfaction.</p>
+        <p class="theory">SK Foods can tasting helps people understand the sensory qualities of food and beverages, which can help improve food quality and consumer satisfaction.</p>
       </div>
       <div class="eatingplace">
         <img src="eateatinghall.png" alt="no image" height={500} width={1550} />
@@ -38,14 +38,14 @@ export default function Experience() {
         </div>
         <div className="col-md-3">
           <h5>Address</h5>
-          <p>No: 53, Ambattur Industrial Estate, 3rd st, <br />
-            South phase, Ambattur, Chennai - 600058</p>
+          <p>No: 53, Ramarkovil 3rd st, <br />
+            South phase, Udumalpet - 642 128</p>
 
           <h5>Phone</h5>
-          <p>+91-44-42333333 / +91-44-40999999</p>
+          <p>+91-44-42333333 / +91-99434 46945</p>
 
           <h5>Email</h5>
-          <p>care@aabsweets.com</p>
+          <p>care@skfoods.com</p>
 
           <h5>Timing</h5>
           <p>Monday To Sunday <br />

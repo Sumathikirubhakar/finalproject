@@ -10,7 +10,7 @@ export default function Home() {
             </div>
             <div class="contents">
                 <h1 class="d">Welcome to SK Foods and Snacks: Feels the taste</h1>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, rem?</p>
+                <p>“Pull up a chair. Take a taste. Come join us. Life is so endlessly delicious.”</p>
             </div>
             <Carousel>
                 <Carousel.Item>
@@ -31,21 +31,21 @@ export default function Home() {
                     <img src="tandooritraditional.png" alt="no image" height={600} width={1550} />
                     <Carousel.Caption>
                         <h3>TANDOORI & DELIGHTS</h3>
-                        <p>The Tandoor is constructed, is an art and to perfect this art it takes years of experience. Tandoor can be used for homemade purposes while it could be used for commercials...!</p>
+                        <p>Chutney and chill? Forget Netflix, my kind of night involves dipping into something spicy. 🎥🌶️...!</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img src="teateasnacks.png" alt="no image" height={600} width={1550} />
                     <Carousel.Caption>
                         <h3>REFRESH AND CHATS</h3>
-                        <p>The Tandoor is constructed, is an art and to perfect this art it takes years of experience. Tandoor can be used for homemade purposes while it could be used for commercials...!</p>
+                        <p>Chai or coffee? Start the debate in the comments while I sip on my favorite ☕.....!</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img src="juices.png" alt="no image" height={600} width={1550} />
                     <Carousel.Caption>
                         <h3>HOT AND CHILL DRINKS</h3>
-                        <p>Consuming energy drinks before exercise is thought to improve mental focus, alertness, anaerobic performance, and/or endurance performance....</p>
+                        <p>Cheers to the perfect cold drink!....</p>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>

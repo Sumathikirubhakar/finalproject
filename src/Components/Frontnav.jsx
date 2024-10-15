@@ -1,12 +1,12 @@
 import React from 'react'
 import './Frontnav.css'
-import {Link} from 'react-router
+import {Link} from 'react-router-dom'
 
 export default function Frontnav() {
     return (
         <div className='main-nav'>
             <div class="a">
-                <p class="welcome">Welcome to SK Foods and Snacks...! <span><br />Feel and Smell Good.</span></p>
+                <p class="welcome">Welcome to SK Foods and Snacks...! <span><br />Checking and tasting in to happiness 😎🌴🍹</span></p>
             </div>
             <div class="b">
                 <nav class="lists">
