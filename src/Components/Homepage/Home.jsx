@@ -1,6 +1,7 @@
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel';
 import './Home.css'
+import Experience from '../Experience/Experience';
 
 export default function Home() {
     return (
@@ -49,6 +50,8 @@ export default function Home() {
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
+            <Experience />
+
         </div>
     )
 }
