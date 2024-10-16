@@ -1,0 +1,36 @@
+.wholeparts  {
+    background-color: rgb(89, 185, 234);
+    text-align: center;
+    font-style: italic;
+}
+.sp{
+    font-size: 40px;
+}
+.sp11{
+    color: darkorange;
+    font-size: 30px;
+}
+.sp12{
+    font-weight: bold;
+    font-style: inherit;
+}
+.wholeparts11 h1{
+    font-size: 50px;
+    font-style: normal;
+    color: rgb(18, 18, 19);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #a8cae5;
+    padding: 10px;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }

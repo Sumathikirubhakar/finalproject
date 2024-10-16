@@ -3,4 +3,9 @@
     height: 300px;
     bottom: 0;
     background-color: #fff;
+    margin-top: 20px;
+}
+.footer a{
+    text-decoration: none;
+    display: block;
 }

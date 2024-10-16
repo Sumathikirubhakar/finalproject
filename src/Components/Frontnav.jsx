@@ -6,7 +6,7 @@ export default function Frontnav() {
     return (
         <div className='main-nav'>
             <div class="a">
-                <p class="welcome">Welcome to SK Foods and Snacks...! <span><br />Checking and tasting in to happiness 😎🌴🍹</span></p>
+                <p class="welcome">Welcome to SK Foods and Snacks...! <span><br />Tasting in to happiness 😎🌴🍹</span></p>
             </div>
             <div class="b">
                 <nav class="lists">
