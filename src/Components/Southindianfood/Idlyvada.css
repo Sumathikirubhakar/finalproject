@@ -1,0 +1,38 @@
+.Idlyvada11{
+    margin-top: 250px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #a8cae5;
+    padding: 10px;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    margin-left: 0;
+    padding-left: 0;
+    /* text-align: center; */
+  }
+  .Idlyvada li{
+    list-style: none;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 50px;
+    float: left;
+    margin-left: 0;
+    padding-left: 0;
+ }
+ .Idlyvadabtn button {
+    margin-top: 150px;
+    /* gap:50px; */
+    margin-left: 10px;
+    align-content:center;    
+ }
+ .Idlyvadabtn button:hover{
+    background-color: rgb(198, 205, 210);
+ }

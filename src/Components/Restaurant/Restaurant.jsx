@@ -8,7 +8,7 @@ export default function Restaurant() {
   return (
     <div>
       <div class="Res">
-        <img src="https://png.pngtree.com/png-vector/20240519/ourlarge/pngtree-onam-festival-banana-leaf-and-plate-with-various-indian-food-on-png-image_12378500.png" alt="#" height="800" width="1600" />
+        <img src="https://banner2.cleanpng.com/20180704/ikt/kisspng-gia-nina-s-pizza-italian-cuisine-restaurant-menu-w-welcome-man-5b3cbc3e9d92f9.0140877115307070066454.jpg" alt="#" height="800" width="1600" />
       </div>
       <div class="Res11">
         <h2 class="Resh2">Welcome to SK Foods::::Feels the Taste</h2>

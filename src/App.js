@@ -9,6 +9,10 @@ import Restaurant from './Components/Restaurant/Restaurant';
 import Retail from './Components/Retail/Retail';
 import Southindianfood from './Components/Southindianfood/Southindianfood';
 import Northindianfood from './Components/Northindian food/Northindianfood';
+import Dhosa from './Components/Southindianfood/Dhosa';
+import Login from './Components/Login/Login';
+import Idlyvada from './Components/Southindianfood/Idlyvada';
+import Paniyaram from './Components/Southindianfood/Paniyaram';
 
 
 function App() {
@@ -26,6 +30,11 @@ function App() {
           <Route path='/Retail' element={<Retail/>}/>
           <Route path='/Southindianfood' element={<Southindianfood/>}/>
           <Route path='/Northindianfood' element={<Northindianfood />} />
+          <Route path='/Dhosa' element={<Dhosa/>} />
+          <Route path='/Login' element={<Login/>} />
+          <Route path='/Idlyvada' element={<Idlyvada/>} />
+          <Route path='/Paniyaram' element={<Paniyaram/>} />
+          
 
 
         </Routes>

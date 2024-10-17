@@ -17,8 +17,8 @@ export default function Frontnav() {
                         <li class="items"><a href="contact">CONTACT Us</a></li>
                         <li class="items"><a href="carrers">CARRERS</a></li>
                     </ul>
-                    <button type="button" class="btn btn-primary">Log-In</button>
-                    <button type="button" class="btn btn-primary">Order-Online</button>
+                    <button type="button" className="btn btn-success"><Link to='/Login'>Log-In</Link></button>
+                    <button type="button" className="btn btn-success">Order-Online</button>
                 </nav>
                 
             </div>            
