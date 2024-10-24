@@ -10,7 +10,7 @@ export default function Frontnav() {
             </div>
             <div class="b">
                 <nav class="lists">
-                    <img src="sk logo.png" className='rounded-circle' alt="no image" height={70} width={80} />
+                    <img src="sk logo.png" className='rounded-circle' alt="noimage" height={70} width={80} />
                     <ul class="menu">
                         <li class="items"><a href="home">HOME</a></li>
                         <li class="items"><Link to='/Company'>COMPANY PROFILE</Link></li>

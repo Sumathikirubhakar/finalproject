@@ -1,4 +1,4 @@
-import { Navigate, Route, Router, Routes } from 'react-router-dom';
+import { Navigate, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Frontnav from './Components/Frontnav';
 import Home from './Components/Homepage/Home';
