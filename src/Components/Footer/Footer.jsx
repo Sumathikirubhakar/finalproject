@@ -15,11 +15,11 @@ export default function Footer() {
         </div>
         <div className="col-md-3">
           <h5>QUICK LINKS</h5>
-          <Link>Home</Link>
+          <Link to={'/home'}>Home</Link>
           <Link>Brand Story</Link>
           <Link>Center Of Excellence</Link>
           <Link>Media</Link>
-          <Link>Contact US</Link>
+          <Link to={'/Contact'}>Contact US</Link>
 
         </div>
         <div className="col-md-3">

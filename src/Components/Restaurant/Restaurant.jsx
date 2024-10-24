@@ -25,7 +25,7 @@ export default function Restaurant() {
             <div className="card text-center">
               <h2>SOUTH INDIAN FOOD</h2>
               <Link to='/Southindianfood'>
-              <img src="https://www.localguidesconnect.com/t5/image/serverpage/image-id/378203i90DCF0DFBFDC6833/image-size/large?v=v2&px=999" alt="#" height="250" width="635" /></Link>
+                <img src="https://www.localguidesconnect.com/t5/image/serverpage/image-id/378203i90DCF0DFBFDC6833/image-size/large?v=v2&px=999" alt="#" height="250" width="635" /></Link>
               <p>South-Indian food is a combination of spicy and non spicy dishes. People generally consume non vegetarian curries with steamed rice. The food is majorly Saiva (vegetarian food) and Asaiva (non- vegetarian food). They also have various snacks like Medu Vada and popular desserts like Payasam, to their credit. Chettinad cuisine is a famous subdivision of the Tamil Nadu cuisine that is known for its spicy and aromatic dishes. The hot, pungent dishes are sprinkled with ground spices</p>
             </div>
           </div>
@@ -33,7 +33,7 @@ export default function Restaurant() {
             <div className="card text-center">
               <h2>NORTH INDIAN WITH TANDOORIES</h2>
               <Link to='/Northindianfood'>
-              <img src="https://singaporeorchard.holidayinn.com/sites/orchard/files/styles/home_offer_highlight_big/public/2022-03/1.%20Tandoor%20dinner%20highlights.jpg?itok=fpQAPm2A" alt="#" height="250" width="635" />
+                <img src="https://singaporeorchard.holidayinn.com/sites/orchard/files/styles/home_offer_highlight_big/public/2022-03/1.%20Tandoor%20dinner%20highlights.jpg?itok=fpQAPm2A" alt="#" height="250" width="635" />
               </Link>
               <p>Flatbreads like roti or paratha are baked on a tawa (griddle), and naan and kulcha are baked in a tandoor (a huge, cylindrical oven heated by charcoal). The tandoor is also used to cook main dishes like tandoori chicken. Puri and bhatura are other popular breads that are deep-fried in oil.</p>
             </div>
@@ -47,10 +47,6 @@ export default function Restaurant() {
             <h2>KARNATAKA FOODS</h2>
             <img src="https://i0.wp.com/thestrongtraveller.com/wp-content/uploads/2020/10/mysore-bonda-min.jpg?resize=640%2C480&ssl=1" alt="#" height="250" width="500" />
             <p>Karnataka has a diverse cuisine but the food in all is considered to be the mildest when it comes to spiciness. They use chilli, jaggery and palm sugar generously. Here the food has several subcategories- </p>
-          </div><div class="col">
-            <h2>TELUGU FOODS</h2>
-            <img src="https://www.holidify.com/images/cmsuploads/compressed/Vegetarian_Andhra_Meal_20200107182616.jpg" alt="#" height="250" width="500" />
-            <p>Telugu and Andhra food is the spiciest amongst all cuisines. They use tamarind and chilli generously, hence, making the food really hot and tangy. They majorly use lentils and coconuts in their recipe. Other popular items include pesarattu (mung bean pancake), pulihaara (tamarind and lemon rice), thotakura (amaranth–pigeon pea stew) pappu, dosakaya (yellow cucumber – pigeon pea stew), sakinalu, rawa laddu etc.</p>
           </div>
           <h1>NON - VEGETARIAN FOODS</h1>
           <div class="col">

@@ -13,6 +13,9 @@ import Dhosa from './Components/Southindianfood/Dhosa';
 import Login from './Components/Login/Login';
 import Idlyvada from './Components/Southindianfood/Idlyvada';
 import Paniyaram from './Components/Southindianfood/Paniyaram';
+import Methuvada from './Components/Southindianfood/Methuvada';
+import Contact from './Components/Contactus/Contact';
+
 
 
 function App() {
@@ -34,6 +37,9 @@ function App() {
           <Route path='/Login' element={<Login/>} />
           <Route path='/Idlyvada' element={<Idlyvada/>} />
           <Route path='/Paniyaram' element={<Paniyaram/>} />
+          <Route path='/Methuvada' element={<Methuvada/>} />
+          <Route path='/Contact' element={<Contact/>} />
+          
           
 
 

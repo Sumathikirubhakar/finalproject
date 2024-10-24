@@ -1,4 +1,4 @@
-.Idlyvada11{
+.Methuvada11{
     margin-top: 250px;
     margin-left: 150px;
     margin-right: 150px;
@@ -18,7 +18,7 @@
     padding-left: 0;
     /* text-align: center; */
   }
-  .Idlyvada li{
+  .Methuvada li{
     list-style: none;
     font-size: 15px;
     font-weight: bold;
@@ -27,12 +27,12 @@
     margin-left: 0;
     padding-left: 0;
  }
- .Idlyvadabtn button {
+ .Methuvadabtn button {
     margin-top: 150px;
     /* gap:50px; */
     margin-left: 10px;
-    
+    align-content:center;    
  }
- .Idlyvadabtn button:hover{
+ .Methuvadabtn button:hover{
     background-color: rgb(198, 205, 210);
  }
