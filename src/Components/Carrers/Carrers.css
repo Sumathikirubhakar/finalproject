@@ -1,0 +1,33 @@
+.skcarrers{
+    color:black;
+    background-color: rgb(230, 165, 144);
+    text-align: center;
+}
+.skcarrers h2{
+    font-weight: bold;
+    font-style:italic;
+}
+.skcarrers p{
+    font-size: 15px;
+    font-weight: bold;
+}
+.payments {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  } 
+  .gpay {
+    float: left;
+  }
+  .media {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+  }
+ 
+
+
+  

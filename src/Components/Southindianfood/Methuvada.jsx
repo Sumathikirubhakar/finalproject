@@ -12,12 +12,12 @@ export default function Methuvada() {
                     </div>
                     <div class="grid-item">
                         <h3>VADAI</h3>
-                        <h4>₹20 /-</h4>
+                        <h4>₹50 /-</h4>
                         <ul className='Paniyaram'>
-                            <li><input type="checkbox" /> SWEET PANIYARAM</li>
-                            <li><input type="checkbox" /> MILK PANIYARAM</li>
-                            <li><input type="checkbox" /> KUZHLI PANIYARAM</li>
-                            <li><input type="checkbox" /> WHEAT PANIYARAM</li>
+                            <li><input type="checkbox" /> MASAL VADAI</li>
+                            <li><input type="checkbox" /> ONION VADAI</li>
+                            <li><input type="checkbox" /> PARUPPU VADAI</li>
+                            <li><input type="checkbox" /> ULUNTHU VADAI</li>
                         </ul>
                         <div className='Methuvadabtn'>
                             <button className='btn btn-success'>Add to Cart</button>

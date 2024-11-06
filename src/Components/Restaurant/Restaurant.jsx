@@ -26,7 +26,7 @@ export default function Restaurant() {
               <h2>SOUTH INDIAN FOOD</h2>
               <Link to='/Southindianfood'>
                 <img src="https://www.localguidesconnect.com/t5/image/serverpage/image-id/378203i90DCF0DFBFDC6833/image-size/large?v=v2&px=999" alt="#" height="250" width="635" /></Link>
-              <p>South-Indian food is a combination of spicy and non spicy dishes. People generally consume non vegetarian curries with steamed rice. The food is majorly Saiva (vegetarian food) and Asaiva (non- vegetarian food). They also have various snacks like Medu Vada and popular desserts like Payasam, to their credit. Chettinad cuisine is a famous subdivision of the Tamil Nadu cuisine that is known for its spicy and aromatic dishes. The hot, pungent dishes are sprinkled with ground spices</p>
+              <p>South-Indian food is a combination of spicy and non spicy dishes. People generally consume non vegetarian curries with steamed rice. The food is majorly Saiva (vegetarian food) and Asaiva (non- vegetarian food). </p>
             </div>
           </div>
           <div class="col-md-6">
@@ -35,7 +35,7 @@ export default function Restaurant() {
               <Link to='/Northindianfood'>
                 <img src="https://singaporeorchard.holidayinn.com/sites/orchard/files/styles/home_offer_highlight_big/public/2022-03/1.%20Tandoor%20dinner%20highlights.jpg?itok=fpQAPm2A" alt="#" height="250" width="635" />
               </Link>
-              <p>Flatbreads like roti or paratha are baked on a tawa (griddle), and naan and kulcha are baked in a tandoor (a huge, cylindrical oven heated by charcoal). The tandoor is also used to cook main dishes like tandoori chicken. Puri and bhatura are other popular breads that are deep-fried in oil.</p>
+              <p>Flatbreads like roti or paratha are baked on a tawa (griddle), and naan and kulcha are baked in a tandoor (a huge, cylindrical oven heated by charcoal). The tandoor is also used to cook main dishes like tandoori chicken.</p>
             </div>
           </div>
           <div class="col">

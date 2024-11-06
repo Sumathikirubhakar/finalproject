@@ -1,6 +1,7 @@
 import React from 'react'
 import Footer from '../Footer/Footer'
 import "./Northindianfood.css"
+import { Link } from 'react-router-dom'
 
 
 export default function Northindianfood() {
@@ -8,7 +9,9 @@ export default function Northindianfood() {
         <div>
             <div className='North'>
                 <div className="Foods">
+                    <Link to={'/Pannersoup'}>
                     <img src="https://w7.pngwing.com/pngs/908/351/png-transparent-mattar-paneer-indian-cuisine-paneer-tikka-masala-vegetarian-cuisine-paneer-soup-food-recipe-thumbnail.png" alt="#" height="200" width="150" />
+                    </ Link>
                     <h4>PANNER SOUP</h4>
                     <h4>Rs.120</h4>
                     <button className='btn btn-primary'><i class="bi bi-bag-heart-fill">Buy Now</i></button>

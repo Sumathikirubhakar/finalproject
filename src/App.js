@@ -15,6 +15,12 @@ import Idlyvada from './Components/Southindianfood/Idlyvada';
 import Paniyaram from './Components/Southindianfood/Paniyaram';
 import Methuvada from './Components/Southindianfood/Methuvada';
 import Contact from './Components/Contactus/Contact';
+import Carrers from './Components/Carrers/Carrers';
+import Pannersoup from './Components/Northindian food/Pannersoup';
+
+
+
+
 
 
 
@@ -39,6 +45,9 @@ function App() {
           <Route path='/Paniyaram' element={<Paniyaram/>} />
           <Route path='/Methuvada' element={<Methuvada/>} />
           <Route path='/Contact' element={<Contact/>} />
+          <Route path='/Carrers' element={<Carrers/>} />
+          <Route path='/Pannersoup' element={<Pannersoup/>} />
+        
           
           
 
