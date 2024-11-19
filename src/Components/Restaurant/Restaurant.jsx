@@ -25,7 +25,7 @@ export default function Restaurant() {
             <div className="card text-center">
               <h2>SOUTH INDIAN FOOD</h2>
               <Link to='/Southindianfood'>
-                <img src="https://www.localguidesconnect.com/t5/image/serverpage/image-id/378203i90DCF0DFBFDC6833/image-size/large?v=v2&px=999" alt="#" height="250" width="635" /></Link>
+                <img src="https://www.localguidesconnect.com/t5/image/serverpage/image-id/378203i90DCF0DFBFDC6833/image-size/large?v=v2&px=999" alt="#" height="250" width="500" /></Link>
               <p>South-Indian food is a combination of spicy and non spicy dishes. People generally consume non vegetarian curries with steamed rice. The food is majorly Saiva (vegetarian food) and Asaiva (non- vegetarian food). </p>
             </div>
           </div>
@@ -33,15 +33,19 @@ export default function Restaurant() {
             <div className="card text-center">
               <h2>NORTH INDIAN WITH TANDOORIES</h2>
               <Link to='/Northindianfood'>
-                <img src="https://singaporeorchard.holidayinn.com/sites/orchard/files/styles/home_offer_highlight_big/public/2022-03/1.%20Tandoor%20dinner%20highlights.jpg?itok=fpQAPm2A" alt="#" height="250" width="635" />
+                <img src="https://singaporeorchard.holidayinn.com/sites/orchard/files/styles/home_offer_highlight_big/public/2022-03/1.%20Tandoor%20dinner%20highlights.jpg?itok=fpQAPm2A" alt="#" height="250" width="500" />
               </Link>
               <p>Flatbreads like roti or paratha are baked on a tawa (griddle), and naan and kulcha are baked in a tandoor (a huge, cylindrical oven heated by charcoal). The tandoor is also used to cook main dishes like tandoori chicken.</p>
             </div>
           </div>
-          <div class="col">
-            <h2>KERELA FOODS</h2>
-            <img src="https://www.holidify.com/images/cmsuploads/compressed/1024px-Sadhya_DSW_20200107182950.jpg" alt="#" height="250" width="500" />
-            <p>Kerala Foods is not just in the region but all across the country. The favourite ingredient of Kerala is coconut and they use it in all their dishes either in the form of oil or milk or whole. Seafood is also very popular in this region.</p>
+          <div class="col-md-6">
+            <div className="card text-center">
+              <h2>KERELA FOODS</h2>
+              <Link>
+                <img src="https://www.holidify.com/images/cmsuploads/compressed/1024px-Sadhya_DSW_20200107182950.jpg" alt="#" height="250" width="500" />
+              </Link>
+              <p>Kerala Foods is not just in the region but all across the country. The favourite ingredient of Kerala is coconut and they use it in all their dishes either in the form of oil or milk or whole. Seafood is also very popular in this region.</p>
+            </div>
           </div>
           <div class="col">
             <h2>KARNATAKA FOODS</h2>

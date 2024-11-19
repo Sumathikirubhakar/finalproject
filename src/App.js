@@ -1,4 +1,4 @@
-import { Navigate, Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Frontnav from './Components/Frontnav';
 import Home from './Components/Homepage/Home';
@@ -17,8 +17,8 @@ import Methuvada from './Components/Southindianfood/Methuvada';
 import Contact from './Components/Contactus/Contact';
 import Carrers from './Components/Carrers/Carrers';
 import Pannersoup from './Components/Northindian food/Pannersoup';
-
-
+import Admindashboard from './Components/Admindashborad/Admindashboard';
+import Kerelafoods from './Components/Kerelafoods/kerelafoods';
 
 
 
@@ -31,8 +31,8 @@ function App() {
        <Frontnav />
        {/* <Router> */}
         <Routes>
-          <Route path='/' element={<Navigate to={'/home'}/>}/>
-          <Route path='/home' element={<Home/>}/>
+          {/* {/* {/* <Route path='/' element={<Navigate to={'/home'}/>}/> } */}
+          <Route path='/home' element={<Home/>}/> 
           <Route path='/company' element={<Company/>}/>
           <Route path='/sweet' element={<Sweetpage/>}/>
           <Route path='/Restaurant' element={<Restaurant/>}/>
@@ -47,6 +47,8 @@ function App() {
           <Route path='/Contact' element={<Contact/>} />
           <Route path='/Carrers' element={<Carrers/>} />
           <Route path='/Pannersoup' element={<Pannersoup/>} />
+          <Route path='/Admindashboard' element={<Admindashboard/>} />
+          <Route path='/Kerelafoods' element={<Kerelafoods/>} />
         
           
           
