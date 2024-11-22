@@ -16,7 +16,7 @@ export default function Footer() {
         <div className="col-md-3">
           <h5>QUICK LINKS</h5>
           <Link to={'/home'}>Home</Link>
-          <Link>Brand Story</Link>
+          <Link to={'/Brandstory'}>Brand Story</Link>
           <Link>Center Of Excellence</Link>
           <Link>Media</Link>
           <Link to={'/Contact'}>Contact US</Link>

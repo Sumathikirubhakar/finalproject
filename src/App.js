@@ -19,6 +19,7 @@ import Carrers from './Components/Carrers/Carrers';
 import Pannersoup from './Components/Northindian food/Pannersoup';
 import Admindashboard from './Components/Admindashborad/Admindashboard';
 import Kerelafoods from './Components/Kerelafoods/kerelafoods';
+import Brandstory from './Components/Brandstory/Brandstory';
 
 
 
@@ -49,6 +50,7 @@ function App() {
           <Route path='/Pannersoup' element={<Pannersoup/>} />
           <Route path='/Admindashboard' element={<Admindashboard/>} />
           <Route path='/Kerelafoods' element={<Kerelafoods/>} />
+          <Route path='/Brandstory' element={<Brandstory/>} />
         
           
           
