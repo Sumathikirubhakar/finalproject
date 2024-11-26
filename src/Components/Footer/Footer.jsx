@@ -17,8 +17,8 @@ export default function Footer() {
           <h5>QUICK LINKS</h5>
           <Link to={'/home'}>Home</Link>
           <Link to={'/Brandstory'}>Brand Story</Link>
-          <Link>Center Of Excellence</Link>
-          <Link>Media</Link>
+          <Link to={'/Coe'}>Center Of Excellence</Link>
+          <Link to={'/media'}>Media</Link>
           <Link to={'/Contact'}>Contact US</Link>
 
         </div>

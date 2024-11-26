@@ -20,6 +20,8 @@ import Pannersoup from './Components/Northindian food/Pannersoup';
 import Admindashboard from './Components/Admindashborad/Admindashboard';
 import Kerelafoods from './Components/Kerelafoods/kerelafoods';
 import Brandstory from './Components/Brandstory/Brandstory';
+import Coe from './Components/Centerofexcellence/Coe';
+import Media from './Components/Media/Media';
 
 
 
@@ -51,6 +53,8 @@ function App() {
           <Route path='/Admindashboard' element={<Admindashboard/>} />
           <Route path='/Kerelafoods' element={<Kerelafoods/>} />
           <Route path='/Brandstory' element={<Brandstory/>} />
+          <Route path='/Coe' element={<Coe/>} />
+          <Route path='/Media' element={<Media/>} />
         
           
           

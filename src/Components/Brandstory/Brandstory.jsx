@@ -38,7 +38,7 @@ export default function Brandstory() {
             </div>
             <div class="card-group">
                 <div class="card bg-primary">
-                    <div class="card-body text-center mx-5">
+                    <div class="card-body">
                         <img src="https://openclipart.org/download/217481/Walking-to-the-future.svg" alt="noimage" height="100" width="200" />
                         <h2>FUTURE STRATEGY</h2>
                         <p class="card-text">SK Trails & Stays will add two more
@@ -50,7 +50,7 @@ export default function Brandstory() {
                     </div>
                 </div>
                 <div class="card bg-warning">
-                    <div class="card-body text-center mx-5">
+                    <div class="card-body">
                         <img src="https://www.pngplay.com/wp-content/uploads/8/Vision-PNG-Free-File-Download.png" alt="noimage" height="100" width="200" />
                         <h2>OUR VISSION</h2>
                         <p class="card-text">“To profitably operate the largest
@@ -60,14 +60,14 @@ export default function Brandstory() {
                     </div>
                 </div>
                 <div class="card bg-success">
-                    <div class="card-body text-center mx-5">
+                    <div class="card-body">
                         <img src="https://www.pngplay.com/wp-content/uploads/7/Mission-Target-Transparent-File.png" alt="noimage" height="100" width="200" />
                         <h2>OUR MISSION</h2>
                         <p class="card-text">Our mission is to create experiences by embracing and empowering a diverse collective of team members, collaborators, and guests, who chose to call The Standard home.</p>
                     </div>
                 </div>
                 <div class="card bg-danger">
-                    <div class="card-body text-center mx-5">
+                    <div class="card-body">
                         <img src="https://www.cdnlogo.com/logos/q/11/quality-hotel.svg" alt="noimage" height="100" width="200" />
                         <h2>SK's BRAND QUALITY</h2>
                         {/* <p class="card-text">Some text inside the fourth card</p> */}
