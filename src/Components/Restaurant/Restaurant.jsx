@@ -19,13 +19,14 @@ export default function Restaurant() {
         <h1>EAT HEALTHY</h1><h1> STAY LONGER</h1>
       </div>
       <div class="container text-center">
+        <br />
         <h1>VEGETERIAN FOODS</h1>
         <div class="row">
           <div class="col-md-6">
             <div className="card text-center">
               <h2>SOUTH INDIAN FOOD</h2>
               <Link to='/Southindianfood'>
-                <img src="https://www.localguidesconnect.com/t5/image/serverpage/image-id/378203i90DCF0DFBFDC6833/image-size/large?v=v2&px=999" alt="#" height="250" width="500" /></Link>
+                <img src="https://external-preview.redd.it/UFSf8C-0VMlZoUFN0xrnuB6VAMWUlpQlIBvM6O0F4uU.jpg?auto=webp&s=d48cb010a38d2a65c71c4d5ac342d0f05f0800f0" alt="#" height="250" width="500" /></Link>
               <p>South-Indian food is a combination of spicy and non spicy dishes. People generally consume non vegetarian curries with steamed rice. The food is majorly Saiva (vegetarian food) and Asaiva (non- vegetarian food). </p>
             </div>
           </div>
@@ -41,17 +42,22 @@ export default function Restaurant() {
           <div class="col-md-6">
             <div className="card text-center">
               <h2>KERELA FOODS</h2>
-              <Link>
+              <Link to='/kerelafoods'>
                 <img src="https://www.holidify.com/images/cmsuploads/compressed/1024px-Sadhya_DSW_20200107182950.jpg" alt="#" height="250" width="500" />
               </Link>
               <p>Kerala Foods is not just in the region but all across the country. The favourite ingredient of Kerala is coconut and they use it in all their dishes either in the form of oil or milk or whole. Seafood is also very popular in this region.</p>
             </div>
           </div>
-          <div class="col">
-            <h2>KARNATAKA FOODS</h2>
-            <img src="https://i0.wp.com/thestrongtraveller.com/wp-content/uploads/2020/10/mysore-bonda-min.jpg?resize=640%2C480&ssl=1" alt="#" height="250" width="500" />
-            <p>Karnataka has a diverse cuisine but the food in all is considered to be the mildest when it comes to spiciness. They use chilli, jaggery and palm sugar generously. Here the food has several subcategories- </p>
+          <div class="col-md-6">
+            <div className='card text-center'>
+              <h2>KARNATAKA FOODS</h2>
+              <Link to='/Karnatakafoods'>
+              <img src="https://i0.wp.com/thestrongtraveller.com/wp-content/uploads/2020/10/mysore-bonda-min.jpg?resize=640%2C480&ssl=1" alt="#" height="250" width="500" />
+              </Link>
+              <p>Karnataka has a diverse cuisine but the food in all is considered to be the mildest when it comes to spiciness. They use chilli, jaggery and palm sugar generously. Here the food has several subcategories- </p>
+            </div>
           </div>
+          <br />
           <h1>NON - VEGETARIAN FOODS</h1>
           <div class="col">
             <h2>ANDHRA - HYDERABAD BIRIYANI</h2>

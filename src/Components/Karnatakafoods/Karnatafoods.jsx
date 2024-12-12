@@ -1,28 +1,30 @@
 import React, { useEffect, useState } from 'react'
 import Footer from '../Footer/Footer'
-import "./Southindianfood.css"
+import "./Karnatakafoods.css"
 import { Link } from 'react-router-dom'
 
-export default function Southindianfood() {
-    const [Southindianfood, setSouthindianfoods] = useState([]);
+
+export default function Karnatafoods() {
+
+    const [kaFoods, setKaFoods] = useState([]);
     useEffect(() => {
-        fetch('food/Southindian.json')
+        fetch('food/karnataka.json')
             .then((res) => { return res.json() })
-            .then((data) => { setSouthindianfoods(data) })
+            .then((data) => { setKaFoods(data) })
             .catch(Err => { console.log(Err); })
     }, [])
 
-    console.log(Southindianfood);
+    console.log(kaFoods);
+
     return (
         <div>
-            <div className='kerela'>
+            <div className='karnataka'>
                 {
-                    Southindianfood.map((item, index) => {
+                    kaFoods.map((item, index) => {
                         return (
-
-                            <div className="kerelaFoods">
+                            <div className="Foods">
                                 <Link to={item.link}>
-                                    <img src={item.image_url} alt="#" height="200" width="150" /></Link>
+                                    <img src={item.image} alt="#" height="200" width="150" /></Link>
                                 <h4>{item.name}</h4>
                                 <h4>Rs.{item.price}</h4>
                                 <button className='btn btn-primary'><i class="bi bi-bag-heart-fill">Buy Now</i></button>

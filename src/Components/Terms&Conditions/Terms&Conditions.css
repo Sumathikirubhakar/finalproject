@@ -1,0 +1,30 @@
+.termsimage{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.head-tc{
+    height: 500px;
+    width:1600px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://img.freepik.com/premium-photo/abstract-blur-luxurious-hotel-room-with-artificial-lights_975284-57.jpg");
+    color:gold;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.terms-useh3{
+    color:black;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.terms-ol-li{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}

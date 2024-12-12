@@ -24,10 +24,10 @@ export default function Footer() {
         </div>
         <div className="col-md-3">
           <h5>LEGAL</h5>
-          <Link>Terms & Conditions</Link>
-          <Link>Cookie Ploicy</Link>
-          <Link>Trademark & Copyright Policy</Link>
-          <Link>Privacy Policy</Link>
+          <Link to={'/TermsConditions'}>Terms & Conditions</Link>
+          <Link to={'/Cookie'}>Cookie Ploicy</Link>
+          <Link to={'/Tradecopyrights'}>Trademark & Copyright Policy</Link>
+          <Link to={'/Privacypolicy'}>Privacy Policy</Link>
         </div>
         <div className="col-md-3">
           <h5>Address</h5>

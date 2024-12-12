@@ -1,0 +1,26 @@
+.privacy-h2 h2{
+    color: black;
+    margin-top: 150px;
+    margin-left: 550px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.privacy p{
+    font-size: 15px;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 20px;
+}
+
+.privacy-li li{
+    font-size: 15px;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 20px;
+}
+.security-ul li{
+    font-size: 15px;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 20px; 
+}

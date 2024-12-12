@@ -10,7 +10,7 @@ export default function Experience() {
         <p class="theory">SK Foods can tasting helps people understand the sensory qualities of food and beverages, which can help improve food quality and consumer satisfaction.</p>
       </div>
       <div class="eatingplace">
-        <img src="eateatinghall.png" alt="noimage" height={500} width={1550} />
+        <img src="eateatinghall.png" alt="noimage" height={500} width={1680} />
       </div>
 
       <Footer/>

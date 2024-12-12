@@ -1,4 +1,4 @@
-import { Route, Routes } from 'react-router-dom';
+import { Navigate, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Frontnav from './Components/Frontnav';
 import Home from './Components/Homepage/Home';
@@ -22,6 +22,11 @@ import Kerelafoods from './Components/Kerelafoods/kerelafoods';
 import Brandstory from './Components/Brandstory/Brandstory';
 import Coe from './Components/Centerofexcellence/Coe';
 import Media from './Components/Media/Media';
+import TermsConditions from './Components/Terms&Conditions/Terms&Conditions';
+import Cookie from './Components/Cookie/Cookie';
+import Tradecopyrights from './Components/Tradecopyrights/Tradecopyrights';
+import Privacypolicy from './Components/Privacypolicy/Privacypolicy';
+import Karnatafoods from './Components/Karnatakafoods/Karnatafoods';
 
 
 
@@ -34,7 +39,7 @@ function App() {
        <Frontnav />
        {/* <Router> */}
         <Routes>
-          {/* {/* {/* <Route path='/' element={<Navigate to={'/home'}/>}/> } */}
+          <Route path='/' element={<Navigate to={'/home'}/>}/>      
           <Route path='/home' element={<Home/>}/> 
           <Route path='/company' element={<Company/>}/>
           <Route path='/sweet' element={<Sweetpage/>}/>
@@ -55,6 +60,12 @@ function App() {
           <Route path='/Brandstory' element={<Brandstory/>} />
           <Route path='/Coe' element={<Coe/>} />
           <Route path='/Media' element={<Media/>} />
+          <Route path='/TermsConditions' element={<TermsConditions/>} />
+          <Route path='/Cookie' element={<Cookie/>} />
+          <Route path='/Tradecopyrights' element={<Tradecopyrights/>} />
+          <Route path='/Privacypolicy' element={<Privacypolicy/>} />
+          <Route path='/Karnatakafoods' element={<Karnatafoods/>} />
+
         
           
           

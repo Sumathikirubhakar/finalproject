@@ -1,4 +1,4 @@
-.kerelaFoods {
+.karnatakaFoods {
     height:325px;
     width:300px;
     box-shadow: 0 2px 2px rgb(164, 162, 162);
@@ -9,13 +9,13 @@
     margin-left: 10px;
     margin-right: 10px;
 }
-.kerelaFoods img:hover{
+.karnatakaFoods img:hover{
      transition: transform 1s;
      transform: scale(1.1);
 }
 
 
-.kerela {
+.karnataka {
     margin-top: 200px;
     display: flex;
     flex-wrap: wrap;

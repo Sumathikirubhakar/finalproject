@@ -1,0 +1,29 @@
+.tradeh1{
+    height:50px;
+    
+    color:black;
+    background-color: lightsteelblue;
+    font-weight:bold;
+    font-style: italic;
+    text-decoration: underline;
+    margin-top: 200px;
+    margin-left: 400px;
+    margin-right: 450px;
+}
+
+.intro h3{
+    font-weight: bold;
+    color:red;
+    /* text-align: center; */
+    
+}
+.li-intro li{
+    list-style: none;
+    font-size: 15px;
+    font-style: italic;
+}
+.intro p{
+    font-style: italic;
+    font-size: 15px;
+    margin-left: 30px;
+}
