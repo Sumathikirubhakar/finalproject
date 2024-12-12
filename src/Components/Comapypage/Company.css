@@ -1,0 +1,17 @@
+.contents2{
+    padding-top:10px ;
+    margin-top: 0px;
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-style: italic;
+    color: black;
+    text-decoration:underline;
+}
+.body{
+    text-align:left;
+    font-size: 20px;
+    font-style: oblique;
+    background-color: azure;
+    text-align: center;
+}

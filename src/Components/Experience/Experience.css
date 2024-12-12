@@ -1,0 +1,18 @@
+.contents1 {
+/* margin-top: 150px; */
+height:80px;
+width:100%;
+color:black;
+background-color: darkseagreen;
+text-align: center;
+font-style: italic;
+}
+.contents1 .theory{
+    color:red;
+    font-weight: bold;
+    font-size: 15px;
+}
+.eatingplace{
+    /* position:absolute; */
+    margin-top: 20px;
+}

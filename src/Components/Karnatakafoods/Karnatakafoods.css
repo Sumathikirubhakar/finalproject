@@ -1,0 +1,23 @@
+.karnatakaFoods {
+    height:325px;
+    width:300px;
+    box-shadow: 0 2px 2px rgb(164, 162, 162);
+    padding:5px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.karnatakaFoods img:hover{
+     transition: transform 1s;
+     transform: scale(1.1);
+}
+
+
+.karnataka {
+    margin-top: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}

@@ -1,0 +1,76 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.qpage h2{
+    /* height:100px; */
+    /* width:120px; */
+    margin: 25px auto;
+    color:black;
+    /* background-color: darkkhaki; */
+
+}
+.main1{
+    background-image: url("https://img.jakpost.net/c/2016/09/29/2016_09_29_12990_1475116504._large.jpg");
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    
+    
+}
+.whole-div1{
+    margin-top: 130px;
+    margin-left: 580px;
+    position: fixed;
+}
+.login h2{
+    text-align: center;
+}
+
+
+.login{
+    position: relative;
+    width: 400px;
+    height: 560px;
+    border:5px groove rgb(245, 214, 179) ;
+    border-radius: 10px;
+    margin: 30px auto;
+}
+
+.image img{
+    height:150px;
+    width:150px;
+    margin: 10px 0 12px 0;
+    margin: 20px;
+    margin-left: 120px;
+    border-radius: 50%;
+}
+
+.login input{
+    text-align: center;
+    width:90%;
+    padding: 12px 20px;
+    margin:5px;
+    margin-left: 20px;
+    display: inline-block;
+    border:2px solid black;
+    box-sizing: border-box;
+}
+.login label{
+    font-size: 25px;
+    color:rgb(31, 20, 242) ;
+    margin-left:160px;
+}
+.login button{
+    margin-top: 65px;
+    margin-left: 20px;
+    width:90%;
+    padding:10px 20px;
+    background-color: rgb(146, 236, 133);
+}
+.login button:hover{
+    background-color: aliceblue;
+}

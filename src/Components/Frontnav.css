@@ -1,0 +1,65 @@
+.main-nav {
+  position: fixed;
+  height: 150px;
+  width: 100%;
+  z-index: 2;
+}
+
+.a {
+  position: relative;
+  height: 40%;
+  width: 100%;
+  color: rgb(78, 75, 75);
+  background-color: rgb(230, 162, 36);
+  margin: 0px;
+  padding: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style:italic;
+  text-align: center;
+}
+
+.b {
+  position: relative;
+  height: 60%;
+  width: 100%;
+  background-color: bisque;
+}
+
+.rounded-circle {
+  /* margin-top: 50px; */
+  margin-left: 80px;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.items {
+  color: black;
+  display: inline-block;
+  gap: 50px;
+  margin-left: 50px;
+  /* margin-top: 50px; */
+}
+
+.items a {
+  text-decoration: none;
+  color: rgb(73, 73, 224);
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+.lists {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  
+  justify-content: space-around;
+  align-items: center;
+}
+
+
