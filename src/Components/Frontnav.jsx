@@ -43,6 +43,7 @@ export default function Frontnav() {
                                 <button type="button" className="btn btn-success "
                                     onClick={() => {
                                         setLogin(false)
+                                        navi('/home')
                                         localStorage.clear();
                                     }}
                                 >Log-out</button>
