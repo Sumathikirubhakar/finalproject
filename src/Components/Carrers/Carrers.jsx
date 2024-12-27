@@ -4,7 +4,7 @@ import Footer from '../Footer/Footer'
 
 export default function Carrers() {
     return (
-        <div>
+        <div className='carrer'>
             <div>
                 <img src="https://dpmiindia.com/blog/wp-content/uploads/2024/04/hotel-management-courses.jpg" alt="noimage" height="800" width="100%" />
             </div>
@@ -15,7 +15,7 @@ export default function Carrers() {
             </div>
 
             <div class="accordion" id="accordionPanelsStayOpenExample">
-                <div class="accordion-item my-4">
+                <div class="accordion-item my-6">
                     <h2 class="accordion-header">
                         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
                             SENIOR CHEF

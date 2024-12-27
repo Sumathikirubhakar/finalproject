@@ -1,8 +1,27 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './Frontnav.css'
-import {Link} from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
+import { useCart } from 'react-use-cart';
 
 export default function Frontnav() {
+
+    const navi = useNavigate()
+
+
+    const [login, setLogin] = useState(false);
+
+    useEffect(() => {
+        const log = localStorage.getItem("isLogedin")
+
+        if (log) {
+            setLogin(true)
+        }
+        else {
+            setLogin(false)
+        }
+    })
+
+    const {items} = useCart() 
     return (
         <div className='main-nav'>
             <div class="a">
@@ -17,11 +36,44 @@ export default function Frontnav() {
                         <li class="items"><a href="contact">CONTACT Us</a></li>
                         <li class="items"><a href="carrers">CARRERS</a></li>
                     </ul>
-                    <button type="button" className="btn btn-success loginm"><Link to='/Login'>Log-In</Link></button>
-                    <button type="button" className="btn btn-success ">Order-Online</button>
+                    {
+                        login ? (
+                            <span className='d-flex gap-3'>
+
+                                <button type="button" className="btn btn-success "
+                                    onClick={() => {
+                                        setLogin(false)
+                                        localStorage.clear();
+                                    }}
+                                >Log-out</button>
+                                <button type="button" className="btn btn-success "
+                                    onClick={() => {
+                                        navi('/bookatable');
+                                    }}
+                                >Book A Table</button>
+                                <button type="button" className="btn btn-success "
+                                    onClick={() => {
+                                        navi('/cart');
+                                    }}
+                                >Cart
+                                    <span className="badge bg-danger">{items.length}</span>
+                                </button>
+                            </span>
+                        )
+                            :
+                            (
+                                <button type="button" className="btn btn-success"
+                                    onClick={()=>{
+                                        navi('/Login')
+                                    }}
+                                >Login</button>
+                                
+                            )
+                    }
+                    {/* <button type="button" className="btn btn-success ">Order-Online</button> */}
                 </nav>
-                
-            </div>            
+
+            </div>
         </div>
     )
 }

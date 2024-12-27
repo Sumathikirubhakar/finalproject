@@ -1,51 +1,58 @@
 [
-    {
-      "name": "APPAM RECEPIE",
-      "price": "Rs.70",
-      "image": "https://www.vegrecipesofindia.com/wp-content/uploads/2021/08/appam-recipe-1-280x280.jpg",
-      "link": "/Appam Recepie"
-    },
-    {
-      "name": "KERELA VEG-STEW",
-      "price": "Rs.90",
-      "image": "https://www.vegrecipesofindia.com/wp-content/uploads/2014/03/kerala-vegetable-stew-recipe-280x280.jpg",
-      "link": "/kerela veg-stew"
-    },
-    {
-      "name": "MALABAR BAROOTA",
-      "price": "Rs.100",
-      "image": "https://www.vegrecipesofindia.com/wp-content/uploads/2022/12/parotta-280x280.jpg",
-      "link": "/MALABAR BAROOTA"
-    },
-    {
-      "name": "MEDHU VADA",
-      "price": "Rs.20",
-      "image": "https://media.istockphoto.com/id/1262305920/photo/tea-time-snack-dal-vada-or-parippu-vada-or-paruppu-vadai-deep-fried-snacks-savory-food-from.jpg?s=612x612&w=0&k=20&c=Dxeb2eSaXCiumc_muijW3R-T7GBNnSxVuc0J0LS3DOo=",
-      "link": "/Methuvada"
-    },
-    {
-      "name": "KERELA PUTTU",
-      "price": "Rs.50",
-      "image": "https://www.vegrecipesofindia.com/wp-content/uploads/2017/11/puttu-recipe-280x280.jpg",
-      "link": "/kerela puttu"
-    },
-    {
-      "name": "CHAPATHI",
-      "price": "Rs.60",
-      "image": "https://png.pngtree.com/png-clipart/20231018/original/pngtree-traditional-chapati-tortillas-isolated-created-with-generative-ai-png-image_13355683.png",
-      "link": null
-    },
-    {
-      "name": "ONAM SADHYA RECEPIE",
-      "price": "Rs.80",
-      "image": "https://www.vegrecipesofindia.com/wp-content/uploads/2017/09/onam-sadya-recipes-280x280.jpg",
-      "link": null
-    },
-    {
-      "name": "KERELA PAZHAM PORI",
-      "price": "Rs.50",
-      "image": "https://www.vegrecipesofindia.com/wp-content/uploads/2016/12/pazham-pori-recipe-280x280.jpg",
-      "link": null
-    }
-  ]
-  
+  {
+    "id": 1,
+    "name": "APPAM RECEPIE",
+    "price": "70",
+    "image": "https://www.vegrecipesofindia.com/wp-content/uploads/2021/08/appam-recipe-1-280x280.jpg",
+    "link": "/Appam Recepie"
+  },
+  {
+    "id": 2,
+    "name": "KERELA VEG-STEW",
+    "price": "90",
+    "image": "https://www.vegrecipesofindia.com/wp-content/uploads/2014/03/kerala-vegetable-stew-recipe-280x280.jpg",
+    "link": "/kerela veg-stew"
+  },
+  {
+    "id": 3,
+    "name": "MALABAR BAROOTA",
+    "price": "100",
+    "image": "https://www.vegrecipesofindia.com/wp-content/uploads/2022/12/parotta-280x280.jpg",
+    "link": "/MALABAR BAROOTA"
+  },
+  {
+    "id": 4,
+    "name": "MEDHU VADA",
+    "price": "20",
+    "image": "https://media.istockphoto.com/id/1262305920/photo/tea-time-snack-dal-vada-or-parippu-vada-or-paruppu-vadai-deep-fried-snacks-savory-food-from.jpg?s=612x612&w=0&k=20&c=Dxeb2eSaXCiumc_muijW3R-T7GBNnSxVuc0J0LS3DOo=",
+    "link": "/Methuvada"
+  },
+  {
+    "id": 5,
+    "name": "KERELA PUTTU",
+    "price": "50",
+    "image": "https://www.vegrecipesofindia.com/wp-content/uploads/2017/11/puttu-recipe-280x280.jpg",
+    "link": "/kerela puttu"
+  },
+  {
+    "id": 6,
+    "name": "CHAPATHI",
+    "price": "60",
+    "image": "https://png.pngtree.com/png-clipart/20231018/original/pngtree-traditional-chapati-tortillas-isolated-created-with-generative-ai-png-image_13355683.png",
+    "link": null
+  },
+  {
+    "id": 7,
+    "name": "ONAM SADHYA RECEPIE",
+    "price": "80",
+    "image": "https://www.vegrecipesofindia.com/wp-content/uploads/2017/09/onam-sadya-recipes-280x280.jpg",
+    "link": null
+  },
+  {
+    "id": 8,
+    "name": "KERELA PAZHAM PORI",
+    "price": "50",
+    "image": "https://www.vegrecipesofindia.com/wp-content/uploads/2016/12/pazham-pori-recipe-280x280.jpg",
+    "link": null
+  }
+]

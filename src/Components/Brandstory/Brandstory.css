@@ -5,3 +5,69 @@
     font-style: italic;
 }
 
+/* Tablet view (up to 768px) */
+@media (max-width: 768px) {
+    .brandh3 h3 {
+        font-size: 1.3rem; /* Adjust for tablets */
+    }
+
+    .card-group {
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+    .card-body {
+        padding: 15px;
+    }
+}
+
+/* Mobile view (up to 480px) */
+@media (max-width: 480px) {
+    .brandh3 h3 {
+        font-size: 1.1rem; /* Adjust for smaller screens */
+    }
+
+    .card h2 {
+        font-size: 1.2rem;
+    }
+
+    .card p,
+    .card ul {
+        font-size: 0.9rem;
+    }
+
+    .card {
+        width: 95%;
+    }
+}
+
+/* Small mobile devices (up to 375px) */
+@media (max-width: 375px) {
+    .brandh3 h3 {
+        font-size: 1rem; /* Adjust for very small screens */
+        padding: 15px;
+    }
+
+    .card h2 {
+        font-size: 1.1rem; /* Slightly smaller for very small screens */
+    }
+
+    .card p,
+    .card ul {
+        font-size: 0.85rem; /* Reduce font size for very small screens */
+    }
+
+    .card {
+        width: 95%;
+        margin: 5px; /* Reduce margin for small devices */
+    }
+
+    .card-body {
+        padding: 10px; /* Reduce padding for small devices */
+    }
+}

@@ -1,51 +1,58 @@
 [
-    {
-      "name": "RAGI ROTI",
-      "price": "Rs.60",
-      "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2024/04/ragi-roti-ragi-rotti-recipe-1024x1536.webp",
-      "link": "/Ragi Roti"
-    },
-    {
-      "name": "MANGALORE BAJIEE",
-      "price": "Rs.90",
-      "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2024/05/goli-baje-mangalore-bajji-1024x1536.webp",
-      "link": "/Mangalore bajiee"
-    },
-    {
-      "name": "MYSORE MASALA-DHOSA",
-      "price": "Rs.100",
-      "image": "https://www.vegrecipesofindia.com/wp-content/uploads/2013/05/mysore-masala-dosa-recipe-280x280.jpg",
-      "link": "/Mysore masala-dhosa"
-    },
-    {
-      "name": "BIS-BELE BATH",
-      "price": "Rs.120",
-      "image": "https://www.vegrecipesofindia.com/wp-content/uploads/2014/05/bisi-bele-bath-280x280.jpg",
-      "link": "/Bis-Bele Bath"
-    },
-    {
-      "name": "KARA BATH",
-      "price": "Rs.150",
-      "image": "https://www.vegrecipesofindia.com/wp-content/uploads/2016/10/mtr-style-khara-bath-recipe-280x280.jpg",
-      "link": "/khara bath"
-    },
-    {
-      "name": "CHAPATHI",
-      "price": "Rs.60",
-      "image": "https://png.pngtree.com/png-clipart/20231018/original/pngtree-traditional-chapati-tortillas-isolated-created-with-generative-ai-png-image_13355683.png",
-      "link": null
-    },
-    {
-      "name": "ONAM SADHYA RECEPIE",
-      "price": "Rs.80",
-      "image": "https://www.vegrecipesofindia.com/wp-content/uploads/2017/09/onam-sadya-recipes-280x280.jpg",
-      "link": null
-    },
-    {
-      "name": "KERELA PAZHAM PORI",
-      "price": "Rs.50",
-      "image": "https://www.vegrecipesofindia.com/wp-content/uploads/2016/12/pazham-pori-recipe-280x280.jpg",
-      "link": null
-    }
-  ]
-  
+  {
+    "id": 1,
+    "name": "RAGI ROTI",
+    "price": "60",
+    "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2024/04/ragi-roti-ragi-rotti-recipe-1024x1536.webp",
+    "link": "/Ragi Roti"
+  },
+  {
+    "id": 2,
+    "name": "MANGALORE BAJIEE",
+    "price": "90",
+    "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2024/05/goli-baje-mangalore-bajji-1024x1536.webp",
+    "link": "/Mangalore bajiee"
+  },
+  {
+    "id": 3,
+    "name": "MYSORE MASALA-DHOSA",
+    "price": "100",
+    "image": "https://www.vegrecipesofindia.com/wp-content/uploads/2013/05/mysore-masala-dosa-recipe-280x280.jpg",
+    "link": "/Mysore masala-dhosa"
+  },
+  {
+    "id": 4,
+    "name": "BIS-BELE BATH",
+    "price": "120",
+    "image": "https://www.vegrecipesofindia.com/wp-content/uploads/2014/05/bisi-bele-bath-280x280.jpg",
+    "link": "/Bis-Bele Bath"
+  },
+  {
+    "id": 5,
+    "name": "KARA BATH",
+    "price": "150",
+    "image": "https://www.vegrecipesofindia.com/wp-content/uploads/2016/10/mtr-style-khara-bath-recipe-280x280.jpg",
+    "link": "/khara bath"
+  },
+  {
+    "id": 6,
+    "name": "CHAPATHI",
+    "price": "60",
+    "image": "https://png.pngtree.com/png-clipart/20231018/original/pngtree-traditional-chapati-tortillas-isolated-created-with-generative-ai-png-image_13355683.png",
+    "link": null
+  },
+  {
+    "id": 7,
+    "name": "ONAM SADHYA RECEPIE",
+    "price": "80",
+    "image": "https://www.vegrecipesofindia.com/wp-content/uploads/2017/09/onam-sadya-recipes-280x280.jpg",
+    "link": null
+  },
+  {
+    "id": 8,
+    "name": "KERELA PAZHAM PORI",
+    "price": "50",
+    "image": "https://www.vegrecipesofindia.com/wp-content/uploads/2016/12/pazham-pori-recipe-280x280.jpg",
+    "link": null
+  }
+]

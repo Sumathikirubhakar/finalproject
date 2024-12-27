@@ -4,6 +4,9 @@ import './Home.css'
 import Experience from '../Experience/Experience';
 
 export default function Home() {
+    const local = localStorage.getItem("user")
+    console.log(local);
+    
     return (
         <div className='homepage'>
             <div class="food position-relative top-0">

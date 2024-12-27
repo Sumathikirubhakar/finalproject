@@ -1,52 +1,58 @@
- [
-      {
-        "name": "DHOSA",
-        "price": "Rs.50",
-        "image_url": "https://st2.depositphotos.com/44388702/44219/i/450/depositphotos_442199556-stock-photo-homemade-dosa-dhosa-masala-plain.jpg",
-        "link": "/Dhosa"
-      },
-      {
-        "name": "IDLY & VADA",
-        "price": "Rs.60",
-        "image_url": "https://i.pinimg.com/736x/24/7d/63/247d63ebed90c69c479dc8095ebd1457.jpg",
-        "link": "/Idlyvada"
-      },
-      {
-        "name": "PANIYARAM",
-        "price": "Rs.50",
-        "image_url": "https://t3.ftcdn.net/jpg/04/47/24/76/360_F_447247650_fATbfFFKbgr2VTdmRMRiBakCCQLEK1Dl.jpg",
-        "link": "/Paniyaram"
-      },
-      {
-        "name": "MEDHU VADA",
-        "price": "Rs.20",
-        "image_url": "https://media.istockphoto.com/id/1262305920/photo/tea-time-snack-dal-vada-or-parippu-vada-or-paruppu-vadai-deep-fried-snacks-savory-food-from.jpg?s=612x612&w=0&k=20&c=Dxeb2eSaXCiumc_muijW3R-T7GBNnSxVuc0J0LS3DOo=",
-        "link": "/Methuvada"
-      },
-      {
-        "name": "PONGAL",
-        "price": "Rs.50",
-        "image_url": "https://vashishti.com/cdn/shop/articles/1_MZWYGXy1CudqiPeInqm-dg_1024x1024.jpg?v=1704182474",
-        "link": null
-      },
-      {
-        "name": "CHAPATHI",
-        "price": "Rs.60",
-        "image_url": "https://png.pngtree.com/png-clipart/20231018/original/pngtree-traditional-chapati-tortillas-isolated-created-with-generative-ai-png-image_13355683.png",
-        "link": null
-      },
-      {
-        "name": "TEA",
-        "price": "Rs.12",
-        "image_url": "https://i.pinimg.com/474x/ce/18/89/ce18891c60315222f4971021f91cd85d.jpg",
-        "link": null
-      },
-      {
-        "name": "MINI MEALS",
-        "price": "Rs.60",
-        "image_url": "https://vandyam.in/wp-content/uploads/2021/10/Special-Meal-170--300x300.png",
-        "link": null
-      }
-    ]
-  
-  
+[
+  {
+    "id": 1,
+    "name": "DHOSA",
+    "price": "50",
+    "image": "https://st2.depositphotos.com/44388702/44219/i/450/depositphotos_442199556-stock-photo-homemade-dosa-dhosa-masala-plain.jpg",
+    "link": "/Dhosa"
+  },
+  {
+    "id": 2,
+    "name": "IDLY & VADA",
+    "price": "60",
+    "image": "https://i.pinimg.com/736x/24/7d/63/247d63ebed90c69c479dc8095ebd1457.jpg",
+    "link": "/Idlyvada"
+  },
+  {
+    "id": 3,
+    "name": "PANIYARAM",
+    "price": "50",
+    "image": "https://t3.ftcdn.net/jpg/04/47/24/76/360_F_447247650_fATbfFFKbgr2VTdmRMRiBakCCQLEK1Dl.jpg",
+    "link": "/Paniyaram"
+  },
+  {
+    "id": 4,
+    "name": "MEDHU VADA",
+    "price": "20",
+    "image": "https://media.istockphoto.com/id/1262305920/photo/tea-time-snack-dal-vada-or-parippu-vada-or-paruppu-vadai-deep-fried-snacks-savory-food-from.jpg?s=612x612&w=0&k=20&c=Dxeb2eSaXCiumc_muijW3R-T7GBNnSxVuc0J0LS3DOo=",
+    "link": "/Methuvada"
+  },
+  {
+    "id": 5,
+    "name": "PONGAL",
+    "price": "50",
+    "image": "https://vashishti.com/cdn/shop/articles/1_MZWYGXy1CudqiPeInqm-dg_1024x1024.jpg?v=1704182474",
+    "link": null
+  },
+  {
+    "id": 6,
+    "name": "CHAPATHI",
+    "price": "60",
+    "image": "https://png.pngtree.com/png-clipart/20231018/original/pngtree-traditional-chapati-tortillas-isolated-created-with-generative-ai-png-image_13355683.png",
+    "link": null
+  },
+  {
+    "id": 7,
+    "name": "TEA",
+    "price": "12",
+    "image": "https://i.pinimg.com/474x/ce/18/89/ce18891c60315222f4971021f91cd85d.jpg",
+    "link": null
+  },
+  {
+    "id": 8,
+    "name": "MINI MEALS",
+    "price": "60",
+    "image": "https://vandyam.in/wp-content/uploads/2021/10/Special-Meal-170--300x300.png",
+    "link": null
+  }
+]

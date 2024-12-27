@@ -1,52 +1,58 @@
- [
-      {
-        "name": "PANNER SOUP",
-        "price": "Rs.120",
-        "image_url": "https://w7.pngwing.com/pngs/908/351/png-transparent-mattar-paneer-indian-cuisine-paneer-tikka-masala-vegetarian-cuisine-paneer-soup-food-recipe-thumbnail.png",
-        "link": "/Pannersoup"
-      },
-      {
-        "name": "ALOO CHAT RECEIPIE",
-        "price": "Rs.100",
-        "image_url": "https://i.pinimg.com/564x/17/1a/3e/171a3e208d3a2bf69b6bf0a37b28bca4.jpg",
-        "link": null
-      },
-      {
-        "name": "GOBI MANCHURIEN",
-        "price": "Rs.50",
-        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsU4w06mev6SnakFrK3JVMomqaQdq-mfmuVLrHOzcV1eP2Ux4rOh8xw5TXgrBcP9NZC1s&usqp=CAU",
-        "link": null
-      },
-      {
-        "name": "TAWA PANNER SABJI",
-        "price": "Rs.150",
-        "image_url": "https://png.pngtree.com/png-vector/20240803/ourmid/pngtree-delicious-paneer-butter-masala-on-white-background-png-image_13347750.png",
-        "link": null
-      },
-      {
-        "name": "PONGAL",
-        "price": "Rs.80",
-        "image_url": "https://vashishti.com/cdn/shop/articles/1_MZWYGXy1CudqiPeInqm-dg_1024x1024.jpg?v=1704182474",
-        "link": null
-      },
-      {
-        "name": "CHAPATHI",
-        "price": "Rs.60",
-        "image_url": "https://png.pngtree.com/png-clipart/20231018/original/pngtree-traditional-chapati-tortillas-isolated-created-with-generative-ai-png-image_13355683.png",
-        "link": null
-      },
-      {
-        "name": "BUTTER CHICKEN",
-        "price": "Rs.60",
-        "image_url": "https://static.vecteezy.com/system/resources/thumbnails/025/269/904/small_2x/butter-chicken-with-ai-generated-free-png.png",
-        "link": null
-      },
-      {
-        "name": "PALAK PANEER",
-        "price": "Rs.60",
-        "image_url": "https://img.freepik.com/premium-photo/indian-healthy-cuisine-palak-paneer-white-background_55610-743.jpg",
-        "link": null
-      }
-    ]
-  
-  
+[
+  {
+    "id": 1,
+    "name": "PANNER SOUP",
+    "price": "120",
+    "image": "https://w7.pngwing.com/pngs/908/351/png-transparent-mattar-paneer-indian-cuisine-paneer-tikka-masala-vegetarian-cuisine-paneer-soup-food-recipe-thumbnail.png",
+    "link": "/Pannersoup"
+  },
+  {
+    "id": 2,
+    "name": "ALOO CHAT RECEIPIE",
+    "price": "100",
+    "image": "https://i.pinimg.com/564x/17/1a/3e/171a3e208d3a2bf69b6bf0a37b28bca4.jpg",
+    "link": null
+  },
+  {
+    "id": 3,
+    "name": "GOBI MANCHURIEN",
+    "price": "50",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsU4w06mev6SnakFrK3JVMomqaQdq-mfmuVLrHOzcV1eP2Ux4rOh8xw5TXgrBcP9NZC1s&usqp=CAU",
+    "link": null
+  },
+  {
+    "id": 4,
+    "name": "TAWA PANNER SABJI",
+    "price": "150",
+    "image": "https://png.pngtree.com/png-vector/20240803/ourmid/pngtree-delicious-paneer-butter-masala-on-white-background-png-image_13347750.png",
+    "link": null
+  },
+  {
+    "id": 5,
+    "name": "PONGAL",
+    "price": "80",
+    "image": "https://vashishti.com/cdn/shop/articles/1_MZWYGXy1CudqiPeInqm-dg_1024x1024.jpg?v=1704182474",
+    "link": null
+  },
+  {
+    "id": 6,
+    "name": "CHAPATHI",
+    "price": "60",
+    "image": "https://png.pngtree.com/png-clipart/20231018/original/pngtree-traditional-chapati-tortillas-isolated-created-with-generative-ai-png-image_13355683.png",
+    "link": null
+  },
+  {
+    "id": 7,
+    "name": "BUTTER CHICKEN",
+    "price": "60",
+    "image": "https://static.vecteezy.com/system/resources/thumbnails/025/269/904/small_2x/butter-chicken-with-ai-generated-free-png.png",
+    "link": null
+  },
+  {
+    "id": 8,
+    "name": "PALAK PANEER",
+    "price": "60",
+    "image": "https://img.freepik.com/premium-photo/indian-healthy-cuisine-palak-paneer-white-background_55610-743.jpg",
+    "link": null
+  }
+]

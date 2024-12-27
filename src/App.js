@@ -1,4 +1,4 @@
-import { Navigate, Route, Routes } from 'react-router-dom';
+import { Link, Navigate, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Frontnav from './Components/Frontnav';
 import Home from './Components/Homepage/Home';
@@ -27,53 +27,90 @@ import Cookie from './Components/Cookie/Cookie';
 import Tradecopyrights from './Components/Tradecopyrights/Tradecopyrights';
 import Privacypolicy from './Components/Privacypolicy/Privacypolicy';
 import Karnatafoods from './Components/Karnatakafoods/Karnatafoods';
+import Bookatable from './Components/Bookatable/Bookatable';
+import { useEffect, useState } from 'react';
+import Registerpage from './Components/Registerpage/Registerpage';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import Cart from './Components/Cart/Cart';
+import Confirmation from './Components/Confirmationpage/Confirmation';
+import Payments from './Components/Paymentspage/Payments';
 
 
 
 
 
 function App() {
+  const [login, setLogin] = useState(false);
+
+  useEffect(() => {
+    const log = localStorage.getItem("isLogedin")
+
+    if (log) {
+      setLogin(true)
+    }
+    else {
+      setLogin(false)
+    }
+  })
   return (
     <div className="App">
-       {/* <Router>  */}
-       <Frontnav />
-       {/* <Router> */}
-        <Routes>
-          <Route path='/' element={<Navigate to={'/home'}/>}/>      
-          <Route path='/home' element={<Home/>}/> 
-          <Route path='/company' element={<Company/>}/>
-          <Route path='/sweet' element={<Sweetpage/>}/>
-          <Route path='/Restaurant' element={<Restaurant/>}/>
-          <Route path='/Retail' element={<Retail/>}/>
-          <Route path='/Southindianfood' element={<Southindianfood/>}/>
-          <Route path='/Northindianfood' element={<Northindianfood />} />
-          <Route path='/Dhosa' element={<Dhosa/>} />
-          <Route path='/Login' element={<Login/>} />
-          <Route path='/Idlyvada' element={<Idlyvada/>} />
-          <Route path='/Paniyaram' element={<Paniyaram/>} />
-          <Route path='/Methuvada' element={<Methuvada/>} />
-          <Route path='/Contact' element={<Contact/>} />
-          <Route path='/Carrers' element={<Carrers/>} />
-          <Route path='/Pannersoup' element={<Pannersoup/>} />
-          <Route path='/Admindashboard' element={<Admindashboard/>} />
-          <Route path='/Kerelafoods' element={<Kerelafoods/>} />
-          <Route path='/Brandstory' element={<Brandstory/>} />
-          <Route path='/Coe' element={<Coe/>} />
-          <Route path='/Media' element={<Media/>} />
-          <Route path='/TermsConditions' element={<TermsConditions/>} />
-          <Route path='/Cookie' element={<Cookie/>} />
-          <Route path='/Tradecopyrights' element={<Tradecopyrights/>} />
-          <Route path='/Privacypolicy' element={<Privacypolicy/>} />
-          <Route path='/Karnatakafoods' element={<Karnatafoods/>} />
-
-        
-          
-          
+      {/* <Router>  */}
+      <Frontnav />
+      {/* <Router> */}
+      <Routes>
+        <Route path='/' element={<Navigate to={'/home'} />} />
+        <Route path='/home' element={<Home />} />
+        <Route path='/company' element={<Company />} />
+        <Route path='/sweet' element={<Sweetpage />} />
+        <Route path='/Restaurant' element={<Restaurant />} />
+        <Route path='/Retail' element={<Retail />} />
+        <Route path='/Southindianfood' element={<Southindianfood />} />
+        <Route path='/Northindianfood' element={<Northindianfood />} />
+        <Route path='/Dhosa' element={<Dhosa />} />
+        <Route path='/Login' element={<Login />} />
+        <Route path='/Idlyvada' element={<Idlyvada />} />
+        <Route path='/Paniyaram' element={<Paniyaram />} />
+        <Route path='/Methuvada' element={<Methuvada />} />
+        <Route path='/Contact' element={<Contact />} />
+        <Route path='/Carrers' element={<Carrers />} />
+        <Route path='/Pannersoup' element={<Pannersoup />} />
+        <Route path='/Admindashboard' element={<Admindashboard />} />
+        <Route path='/Kerelafoods' element={<Kerelafoods />} />
+        <Route path='/Brandstory' element={<Brandstory />} />
+        <Route path='/Coe' element={<Coe />} />
+        <Route path='/Media' element={<Media />} />
+        <Route path='/TermsConditions' element={<TermsConditions />} />
+        <Route path='/Cookie' element={<Cookie />} />
+        <Route path='/Tradecopyrights' element={<Tradecopyrights />} />
+        <Route path='/Privacypolicy' element={<Privacypolicy />} />
+        <Route path='/Karnatakafoods' element={<Karnatafoods />} />
+        <Route path='/Registerpage' element={<Registerpage />} />
 
 
-        </Routes>
-        {/* <Footer/> */}
-        {/* </Router> */}
+
+
+
+        {
+          login && (
+            <>
+              <Route path='/Bookatable' element={<Bookatable />} />
+              <Route path='/Cart' element={<Cart />} />
+              <Route path='/Confirmation' element={<Confirmation />} />
+              <Route path='/Payments' element={<Payments />} />
+            </>
+          )
+        }
+        {/* <Route path='/Bookatable' element={<Bookatable />} /> */}
+
+
+
+
+
+
+
+      </Routes>
+      {/* <Footer/> */}
+      {/* </Router> */}
 
     </div>
   );

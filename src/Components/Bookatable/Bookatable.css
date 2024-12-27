@@ -1,0 +1,91 @@
+.bookings{
+    width: 100vw;
+}
+
+.container h2{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+#booking-form {
+    margin: 50px 10%;
+}
+
+#booking-form input[type="text"],
+#booking-form input[type="tel"],
+#booking-form input[type="date"],
+#booking-form input[type="time"],
+#booking-form input[type="number"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#booking-form button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+
+
+.tables{
+    gap: 50px;
+}
+.tables, .tables th, .tables td{
+    border: 1px solid;
+    border-collapse: separate;
+    
+}
+
+.tables td,.tables th{
+    padding: 10px;
+    text-align: center;
+    
+}
+
+/* Mobile-specific styles */
+@media (max-width: 768px) {
+    /* Adjust the container to be more centered and take full width on mobile */
+    .container {
+        width: 95%;
+    }
+
+    /* Stack the items vertically on small screens */
+    .items {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .item {
+        flex-basis: 90%; /* Items take up most of the screen width */
+        margin-bottom: 20px; /* Space between stacked items */
+    }
+
+    /* Adjust header for mobile */
+    header {
+        font-size: 18px;
+    }
+
+    /* Adjust the price style for mobile */
+    .price {
+        font-size: 1.2em;
+    }
+}
+
+/* Further adjustments for very small mobile screens (e.g., under 480px) */
+@media (max-width: 480px) {
+    /* Make text size smaller for very small screens */
+    header {
+        font-size: 16px;
+    }
+
+    .price {
+        font-size: 1em;
+    }
+}
